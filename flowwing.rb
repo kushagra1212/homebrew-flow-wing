@@ -1,4 +1,4 @@
-class FlowWing < Formula
+class Flowwing < Formula
   desc "A Programming language that uniquely combines dynamic and static typing paradigms"
   homepage "https://github.com/kushagra1212/Flow-Wing"
   url "https://github.com/kushagra1212/Flow-Wing/releases/download/v0.0.1-alpha/FlowWing-0.0.1.tar.gz"
