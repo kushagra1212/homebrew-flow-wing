@@ -2,7 +2,7 @@ class Flowwing < Formula
   desc "A Programming language that uniquely combines dynamic and static typing paradigms"
   homepage "https://github.com/kushagra1212/Flow-Wing"
   url "https://github.com/kushagra1212/Flow-Wing/releases/download/v0.0.1-alpha/FlowWing-0.0.1-alpha.tar.gz"
-  sha256 "369c643ae40ed05e7848cf738743fd3bc1626fe1faaeff246cadf4fabad9c726"
+  sha256 "08528a5d324f922d71440cc705d5ba48c44249dd8ef79bee6e20fa549879b06c"
   license "FlowWing"
 
   def install
