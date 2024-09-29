@@ -13,7 +13,7 @@ class Flowwing < Formula
     (lib/"FlowWing/lib").install "lib/libflowwing_vector.so"
     (lib/"FlowWing/lib").install "lib/libflowwing_map.so"
 
-    (lib/"FlowWing/lib/modules").install "lib/modules"
+    (lib/"FlowWing/lib").install "lib/modules"
   end
 
   test do
