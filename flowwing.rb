@@ -1,8 +1,8 @@
 class Flowwing < Formula
   desc "Sculpting logic with the elegance of flow."
   homepage "https://github.com/kushagra1212/Flow-Wing"
-  url "https://github.com/kushagra1212/Flow-Wing/releases/download/v0.0.1-alpha.1/FlowWing-0.0.1-alpha-m1.tar.gz"
-  sha256 "4f2197dbb491875ef145dbba102e6b3a8c2dd5718179bce873ac8154fd241551"
+  url "https://github.com/kushagra1212/Flow-Wing/releases/download/v0.0.1-alpha.1/FlowWing-0.0.1-mac-arm-64.tar.gz"
+  sha256 "74c9ead04dc18f50e14cccdcc25ead9f668fe01abbd569b031baa54a1d9001ea"
   license "FlowWing Contribution License v1.0"
 
   def install
