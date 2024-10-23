@@ -13,7 +13,6 @@ class Flowwing < Formula
 
     (lib/"FlowWing/lib").install "lib/libbuilt_in_module.a"
     (lib/"FlowWing/lib").install "lib/libflowwing_string.a"
-    (lib/"FlowWing/lib").install "lib/libraylib.a"
     (lib/"FlowWing/lib").install "lib/libflowwing_vector.so"
     (lib/"FlowWing/lib").install "lib/libflowwing_map.so"
     (lib/"FlowWing/lib").install "lib/libgc.a"
