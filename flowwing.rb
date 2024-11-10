@@ -10,7 +10,7 @@ class Flowwing < Formula
     bin.install "bin/FlowWing"
     bin.install "bin/FlowWing-jit"
     bin.install "bin/FlowWing-repl"
-    bin.install "bin/clang++"
+    bin.install "bin/fg-link"
 
     lib.install "lib/libbuilt_in_module.a"
     lib.install "lib/libflowwing_string.a"
