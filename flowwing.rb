@@ -10,15 +10,16 @@ class Flowwing < Formula
     bin.install "bin/FlowWing"
     bin.install "bin/FlowWing-jit"
     bin.install "bin/FlowWing-repl"
+    bin.install "bin/clang++"
 
-    (lib/"FlowWing/lib").install "lib/libbuilt_in_module.a"
-    (lib/"FlowWing/lib").install "lib/libflowwing_string.a"
-    (lib/"FlowWing/lib").install "lib/libflowwing_vector.so"
-    (lib/"FlowWing/lib").install "lib/libflowwing_map.so"
-    (lib/"FlowWing/lib").install "lib/libgc.a"
-    (lib/"FlowWing/lib").install "lib/libbuilt_in_module.bc"
+    lib.install "lib/libbuilt_in_module.a"
+    lib.install "lib/libflowwing_string.a"
+    lib.install "lib/libflowwing_vector.so"
+    lib.install "lib/libflowwing_map.so"
+    lib.install "lib/libgc.a"
+    lib.install "lib/libbuilt_in_module.bc"
 
-    (lib/"FlowWing/lib").install "lib/modules"
+    lib.install "lib/modules"
   end
 
   test do
